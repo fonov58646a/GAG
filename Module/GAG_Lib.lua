@@ -9,10 +9,10 @@ local UI = Library.Async --// Shortened
 local Window = nil
 
 function Library:Setup()
-	local version = LRM_ScriptVersion and "v" .. table.concat(LRM_ScriptVersion:split(""), ".") or "Dev Version"
+	local version = LRM_ScriptVersion and "v" .. table.concat(LRM_ScriptVersion:split(""), ".") or "BEST Version"
 	Window = UI:CreateWindow({
-		Title = "SYPHER HUB",
-		Icon = "https://raw.githubusercontent.com/fonov58646a/image/main/file_00000000fbe061fa913561383180e1d9.png",
+		Title = "NEXA HUB",
+		Icon = "https://raw.githubusercontent.com/blablablablayeyeyey282881/loader/main/1757080316596-103480d9-5050-4c3e-a774-4c605c17bfe1.png",
 		Author = (premium and "Premium" or " Grow a Graden") .. " | " .. version,
 		Folder = "PhantomFlux",
 		Size = UDim2.fromOffset(580, 460),
