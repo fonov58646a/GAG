@@ -105,7 +105,7 @@ function Library:SetupAboutUs(AboutUs)
 	AboutUs:Paragraph({
 	Title = "Who Are We?",
 	Icon = "user-circle",
-	Desc = "SYPHER HUB is a flexible and powerful script hub For Roblox, designed to enhance your gaming experience with a variety of features and tools.",
+	Desc = "NEXA HUB is a flexible and powerful script hub For Roblox, designed to enhance your gaming experience with a variety of features and tools.",
 	 })
 
 	AboutUs:Paragraph({
@@ -118,7 +118,7 @@ function Library:SetupAboutUs(AboutUs)
 		Title = "Discord Link (Click to Copy)",
 		Icon = "link",
 		Callback = function()
-			setclipboard("https://discord.gg/uXbqFaJU5e")
+			setclipboard("https://discord.gg/68rZk9s35f")
 			Library:Notify({ Title = "Copied!", Content = "Discord link copied!", Duration = 3 })
 		end,
 	})
